@@ -1,6 +1,6 @@
-# Afisha.com
+# Afisha
 
-Afisha.com is a web application for discovering and rating movies and TV shows. The application leverages the TMDb (The Movie Database) API.
+Afisha is a web application for discovering and rating movies and TV shows. The application leverages the TMDb (The Movie Database) API.
 ## Features
 - Browse and discover movies and TV shows.
 - View detailed information about each movie and TV show.
