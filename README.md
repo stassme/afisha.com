@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Afisha.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Afisha.com is a web application for discovering and rating movies and TV shows. The application leverages the TMDb (The Movie Database) API.
+## Features
+- Browse and discover movies and TV shows.
+- View detailed information about each movie and TV show.
+- Rate movies and TV shows as a guest user.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **Frontend**: React, TypeScript, Semantic UI React
+- **State Management**: React Query
+- **Routing**: React Router
+- **API**: The Movie Database (TMDb) API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+Follow these steps to get a local copy of the project up and running with Vite:
 
-## Expanding the ESLint configuration
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/stassme/afisha.com.git
+    cd afisha.com
+    ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-- Configure the top-level `parserOptions` property like this:
+3. **Start the development server:**
+    ```bash
+    npm run dev
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    This will run the app in development mode. 
